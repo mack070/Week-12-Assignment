@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Gitaways",
+  title: "GITAWAYS",
   description: "Week 12 Assignment",
 };
 
@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
       <body>
       <header>
 <nav className="navbar">
-      <Link href="/">HOME</Link>
+      <Link href="/">Home</Link>
       <Link href="/about-us">About Us</Link>
       <Link href="/curacao">Curacao</Link>
       <Link href="/new-york">New York</Link>

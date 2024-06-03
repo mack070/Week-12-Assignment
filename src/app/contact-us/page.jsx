@@ -2,7 +2,7 @@
 export default function Contact() {
     return (
       <div className="contact">
-        <img src="https://trello.com/1/cards/665db5c053a2259891f53092/attachments/665db5cbf9433e8f60fabd76/previews/665db5ccf9433e8f60fabddf/download/My_first_design_1_(1).jpeg" alt="Gitaways Logo2"></img>
+        <img src="https://trello.com/1/cards/665df83565986e3512f8f5a4/attachments/665df8aa945e595d7bb2e1c9/previews/665df8ac945e595d7bb2e3c5/download/My_first_design_1_(8).jpeg" alt="Gitaways Logo2"></img>
       </div>
     );
   }
