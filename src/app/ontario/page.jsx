@@ -10,18 +10,18 @@ export default function Ontario() {
         <div className='Ontario-image-one'>
           <img
             src='https://trello.com/1/cards/665dd31a2e9b42cf7578d691/attachments/665dd7e218f30225f6ace3ab/previews/665dd7e318f30225f6ace3b3/download/2308422848369234051_n.jpg'
-            alt='Ontario image one'
+            alt='Ontario on water'
           ></img>
           <div className='Ontario-image-two'>
             <img
               src='https://trello.com/1/cards/665dd31a2e9b42cf7578d691/attachments/665dd7e282cb311f019ea4f3/previews/665dd7e382cb311f019ea67b/download/7142133609312943129_n.jpg'
-              alt='Ontario image two'
+              alt='Ontario by the water'
             ></img>
           </div>
           <div className='Ontario-image-three'>
             <img
               src='https://trello.com/1/cards/665dd31a2e9b42cf7578d691/attachments/665dd7e58be74f99ed86b9e0/previews/665dd7e68be74f99ed86bb79/download/171649.jpg'
-              alt='Ontario image three'
+              alt='Ontario in the snow'
             ></img>
           </div>
         </div>
@@ -76,19 +76,19 @@ export default function Ontario() {
         <div className='Ontario-image-four'>
           <img
             src='https://trello.com/1/cards/665dd31a2e9b42cf7578d691/attachments/665dd7e58e6f2ab3e4089d0e/previews/665dd7e68e6f2ab3e4089feb/download/172308.jpg'
-            alt='Ontario image four'
+            alt='Ontario green waterfall'
           ></img>
         </div>
         <div className='Ontario-image-five'>
           <img
             src='https://trello.com/1/cards/665dd31a2e9b42cf7578d691/attachments/665dd7e576d9634bf7db3618/download/164252.jpg'
-            alt='Ontario image five'
+            alt='Ontario icy water'
           ></img>
         </div>
         <div className='Ontario-image-six'>
           <img
             src='https://trello.com/1/cards/665dd31a2e9b42cf7578d691/attachments/665dd7e5936b51b6a3fb2c77/previews/665dd7e7936b51b6a3fb2c83/download/172733.jpg'
-            alt='Ontario image six'
+            alt='Ontario christmas lights'
           ></img>
         </div>
       </div>

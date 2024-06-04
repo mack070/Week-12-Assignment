@@ -5,12 +5,12 @@ export default function NewYork() {
 <img src="https://trello.com/1/cards/665dc790014f1f79fe9d1fd1/attachments/665dc7a94e55738e29d2da54/previews/665dc7aa4e55738e29d2db87/download/My_first_design_1_(2).jpeg" alt="New York Logo"></img>
 </header>
 <div className="ny-images-one">
-<img src="https://trello.com/1/cards/665dd57a6f19fe3ff09ee260/attachments/665dd590d0e3a9cf915f0e26/previews/665dd591d0e3a9cf915f114a/download/20240124_144745.jpg" alt="ny image one"></img>
+<img src="https://trello.com/1/cards/665dd57a6f19fe3ff09ee260/attachments/665dd590d0e3a9cf915f0e26/previews/665dd591d0e3a9cf915f114a/download/20240124_144745.jpg" alt="Beef sandwich"></img>
 <div className="ny-images-one">
-<img src="https://trello.com/1/cards/665dd57a6f19fe3ff09ee260/attachments/665dd58f6d64deed12b0861f/previews/665dd5916d64deed12b0893d/download/20240125_135435.jpg" alt="ny image two"></img>
+<img src="https://trello.com/1/cards/665dd57a6f19fe3ff09ee260/attachments/665dd58f6d64deed12b0861f/previews/665dd5916d64deed12b0893d/download/20240125_135435.jpg" alt="New york landscape"></img>
 </div>
 <div className="ny-images-one">
-<img src="https://trello.com/1/cards/665dd57a6f19fe3ff09ee260/attachments/665dd6126c3dd023666baaf3/previews/665dd6126c3dd023666baafc/download/IMG_20240202_123036_546.webpg" alt="ny image three"></img>
+<img src="https://trello.com/1/cards/665dd57a6f19fe3ff09ee260/attachments/665dd6126c3dd023666baaf3/previews/665dd6126c3dd023666baafc/download/IMG_20240202_123036_546.webpg" alt="Wine"></img>
 </div>
 </div>
 <h1>New York Holiday Information</h1>
@@ -35,10 +35,10 @@ export default function NewYork() {
 <img src="https://trello.com/1/cards/665dd57a6f19fe3ff09ee260/attachments/665dd681d0b501a4e842da60/previews/665dd683d0b501a4e842da75/download/Screenshot_2024-06-03_at_15.42.59.pngg" alt="ny image four"></img>
 </div>
 <div className="ny-images-two">
-<img src="https://trello.com/1/cards/665dd57a6f19fe3ff09ee260/attachments/665dd58f6d64deed12b0861f/previews/665dd5916d64deed12b0893d/download/20240125_135435.jpg" alt="ny image five"></img>
+<img src="https://trello.com/1/cards/665dd57a6f19fe3ff09ee260/attachments/665dd58f6d64deed12b0861f/previews/665dd5916d64deed12b0893d/download/20240125_135435.jpg" alt="new york landscape"></img>
 </div>
 <div className="ny-images-two">
-<img src="https://trello.com/1/cards/665dd57a6f19fe3ff09ee260/attachments/665dd58fc0f970013040051c/previews/665dd591c0f970013040054b/download/20240123_175558.jpg" alt="ny image six"></img>
+<img src="https://trello.com/1/cards/665dd57a6f19fe3ff09ee260/attachments/665dd58fc0f970013040051c/previews/665dd591c0f970013040054b/download/20240123_175558.jpg" alt="new york at night"></img>
 </div>
 </div>
     );
