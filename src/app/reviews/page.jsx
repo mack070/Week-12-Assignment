@@ -38,11 +38,14 @@ export default async function Posts() {
   }
 
   return (
+    <div>
+    <header className="reviews-logo">
+    <img src="https://trello.com/1/cards/665db5c053a2259891f53092/attachments/665f3f14842e94a0ce5acc84/previews/665f3f15842e94a0ce5acc8e/download/Design.jpeg" alt="Reviews logo image"></img>
+    </header>
     <div className="createposts">
-      <h2>Reviews</h2>
       <SignedIn>
         <div className="addpost">
-        <h3>Leave a review...</h3>
+        <h5>Leave us a review...</h5>
         <form action={handleAddPost}>
           <textarea name="content" placeholder="What would you like to say?"></textarea>
 <ToastButton/>
@@ -66,6 +69,7 @@ export default async function Posts() {
           );
         })}
       </div>
+    </div>
     </div>
   );
 }

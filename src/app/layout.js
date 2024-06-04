@@ -105,9 +105,6 @@ export default async function RootLayout({ children }) {
 							{!hasUsername && <ProfileForm />}
 						</SignedIn>
 					</main>
-					<footer>
-						<h2>GITAWAYS</h2>
-					</footer>
 				</body>
 			</html>
 		</ClerkProvider>
