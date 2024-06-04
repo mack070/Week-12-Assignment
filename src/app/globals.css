@@ -2,3 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+header {
+	display: flex;
+	justify-content: space-around;
+	align-content: space-between;
+	padding: 10px;
+}
