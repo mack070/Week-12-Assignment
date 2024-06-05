@@ -105,9 +105,7 @@ export default async function RootLayout({ children }) {
 							{!hasUsername && <ProfileForm />}
 						</SignedIn>
 					</main>
-					<footer className='header bg-sky-500/50 tracking-wide font-normal '>
-						<h2>GITAWAYS</h2>
-					</footer>
+
 				</body>
 			</html>
 		</ClerkProvider>
