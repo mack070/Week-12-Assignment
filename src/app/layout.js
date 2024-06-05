@@ -58,7 +58,7 @@ export default async function RootLayout({ children }) {
 							className='nav-bar hover:font-bold hover:underline'
 							href='/curacao'
 						>
-							Curacao
+							Curaçao
 						</Link>
 						<Link
 							className='nav-bar hover:font-bold hover:underline'
@@ -105,7 +105,6 @@ export default async function RootLayout({ children }) {
 							{!hasUsername && <ProfileForm />}
 						</SignedIn>
 					</main>
-
 				</body>
 			</html>
 		</ClerkProvider>
