@@ -1,20 +1,20 @@
-import Image from "next/image";
-
 export default function Curacao() {
 	return (
-		<div className='curacao-logo'>
-			<img
-				src='https://trello.com/1/cards/665dc790014f1f79fe9d1fd1/attachments/665dc7a965b2243bf089f97b/previews/665dc7aa65b2243bf089f988/download/My_first_design_1_(5).jpeg'
-				alt='Curacao Logo'
-			></img>
-			<div className='grid grid-cols-3 gap-4'>
-				<header className='image-section-one'>
+		<>
+			<header className='curacao-logo w-full h-48 object-cover'>
+				<img
+					src='https://trello.com/1/cards/665dc790014f1f79fe9d1fd1/attachments/665dc7a965b2243bf089f97b/previews/665dc7aa65b2243bf089f988/download/My_first_design_1_(5).jpeg'
+					alt='Curacao Logo'
+				></img>
+			</header>
+			<div className='grid grid-cols-3 gap-4 p-4'>
+				<div className='image-section-one'>
 					<img
 						className='w-full h-48 object-cover'
 						src='https://trello.com/1/cards/665dd2fb2697bbcdeb5495eb/attachments/665dd5491fafcce3849e279f/previews/665dd54a1fafcce3849e3463/download/106285-Curacao.jpg'
-						alt='New York Logo'
+						alt='Curacao Logo'
 					></img>
-				</header>
+				</div>
 				<div className='image-section-one'>
 					<img
 						className='w-full h-48 object-cover'
@@ -30,7 +30,7 @@ export default function Curacao() {
 					></img>
 				</div>
 			</div>
-			<div className='bg-rose-200'>
+			<div className='bg-rose-200 p-4'>
 				<h1 className='font-bold p-1 text-center text-xl'>
 					Curacao Holiday Information
 				</h1>
@@ -86,7 +86,7 @@ export default function Curacao() {
 					</p>
 				</h2>
 			</div>
-			<div className='image-section-two grid grid-cols-3 gap-4'>
+			<div className='image-section-two grid grid-cols-3 gap-4 p-4'>
 				<img
 					className='w-full h-48 object-cover'
 					src='https://img.static-kl.com/images/media/FE979D35-B911-4598-85E11AAC8ECC22B8?w=1280'
@@ -108,6 +108,6 @@ export default function Curacao() {
 					></img>
 				</div>
 			</div>
-		</div>
+		</>
 	);
 }
