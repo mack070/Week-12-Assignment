@@ -31,7 +31,6 @@ export default async function Posts() {
     // get information from the form
     const content = formData.get("content");
 
-
     // add the new post to the database
     await db.query(
       `INSERT INTO posts (profile_id, content) VALUES (${profiledata}, '${content}')`
@@ -40,38 +39,40 @@ export default async function Posts() {
   }
 
   return (
-    <div className="createposts">
-      <h2>
-        My Profile
-      </h2>
-      <SignedIn>
-        <div className="addpost">
-          <h3>Add a review...</h3>
-          <form action={handleAddPost}>
-            <textarea
-              name="content"
-              placeholder="What would you like to say?"
-            ></textarea>
-<ToastButton/>
-          </form>
+    <div>
+      <header className="reviews-logo">
+        <img src="https://trello.com/1/cards/665db5c053a2259891f53092/attachments/665f3fcfe914f28437de452a/previews/665f3fd0e914f28437de4534/download/Design_(2).jpeg"></img>
+      </header>
+      <div className="createposts">
+        <SignedIn>
+          <div className="addpost">
+            <h3>Leave us a review...</h3>
+            <form action={handleAddPost}>
+              <textarea
+                name="content"
+                placeholder="What would you like to say?"
+              ></textarea>
+              <ToastButton />
+            </form>
+          </div>
+        </SignedIn>
+
+        <SignedOut>
+          <p>Oops, you need to sign in to leave a review!</p>
+          <SignInButton />
+        </SignedOut>
+
+        <h5>My Reviews</h5>
+        <div className="posts">
+          {posts.rows.map((post) => {
+            return (
+              <div key={post.id} className="post">
+                <h5>{post.username} says...</h5>
+                <p>{post.content}</p>
+              </div>
+            );
+          })}
         </div>
-      </SignedIn>
-
-      <SignedOut>
-        <p>You need to sign in to leave a review</p>
-        <SignInButton />
-      </SignedOut>
-
-      <h3>My Reviews</h3>
-      <div className="posts">
-        {posts.rows.map((post) => {
-          return (
-            <div key={post.id} className="post">
-              <h5>{post.username} says...</h5>
-              <p>{post.content}</p>
-            </div>
-          );
-        })}
       </div>
     </div>
   );
