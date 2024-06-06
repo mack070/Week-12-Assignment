@@ -1,12 +1,38 @@
+GITAWAYS - WEEK 12 ASSIGNMENT
+
+If you wish to clone our repository, you will need to complete the following steps to set this up:
+
+Import your keys into a env.local file - you will need:
+
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+
+CLERK_SECRET_KEY=
+
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+
+DATABASE_URL=
+
+NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/
+
+NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
+
+In your terminal, run the following commands:
+
+npm i
+
+npm run dev
+
+--
+
+
+-----
+
 Presenting…
 
-WEEK 12 PROJECT
+GITAWAYS by MEL, TOYAH, JERRY & EM
 
-MEL, TOYAH, JERRY & EM
-
-Meet The Team
-
-HELLO!
 
 About Our Project
 
@@ -16,9 +42,7 @@ Travel agent websites are SO boring…
 
 …so we created a travel agent brand for holiday goers, with a fun website where users can create an account, enquire about holiday packages, leave reviews, and a whole host of other fun things, which you will soon see!
 
-User Stories
-
-MVP
+User Stories - MVP
 
 -  want to be able to sign up to the website and have my own username & bio.
 
@@ -26,9 +50,8 @@ MVP
 
 - I want to be able to leave a review using a form which displays on a page & shows all users reviews.
 
-User Stories
 
-STRETCH GOALS
+User Stories - STRETCH GOALS
 
 - I want to view my bio & all of my own reviews on ‘My Profile’ page.
 
@@ -38,7 +61,7 @@ STRETCH GOALS
 
 - I want to be able to play a game on the website and collect points towards my holiday.
 
-Planning
+-------
 
 Trello
 
@@ -50,9 +73,7 @@ Wireframe & Schema
 
 We planned how our website & database schema would look using Figma to create a wireframe.
 
-Demo Time!
-
-PLEASE FASTEN YOUR SEATBELTS & PREPARE FOR TAKE OFF…
+------
 
 Features
 
@@ -66,7 +87,7 @@ LIVE CHAT
 
 - Reference: https://app-eu1.hubspot.com
 
-  Features
+
 
   SPOTIFY
 
@@ -77,7 +98,7 @@ LIVE CHAT
 
 - The playlist length covers the full duration of the flight so screaming children can be a thing of the past (unless they’re your own…)
 
-Not Quite A Feature…
+
 
 ELEVATOR .JS
 
@@ -85,11 +106,11 @@ ELEVATOR .JS
 
 - We implemented the scroll, but wanted to use custom music to play during the elevation to suit the theme of the holiday package - BUT… this doesn’t work in Next.js - BOO.
 
-- SO, undeterred, we created our own, BETTER version called MELEVATOR!
+- SO, undeterred, we created an adapted version called MELEVATOR!
 
-- Reference: tholman.com/elevator.js [Don’t use this, use Melevator in our GitHub 😉 ]
+- Reference: tholman.com/elevator.js (ORIGINAL)
 
-Features
+
 
 GITAWAY POINTS GAME
 
@@ -97,7 +118,9 @@ GITAWAY POINTS GAME
 
 - In a future release, we would like to implement a feature that allows the points to be stored and displayed on the ‘My Profile’ page.
 
-Lighthouse & ACCESSIBILITY
+-----
+
+LIGHTHOUSE & ACCESSIBILITY
 
 MOBILE RESPONSIVE
 
@@ -118,6 +141,8 @@ BACK TO TOP FUNCTION
 
 On pages with a lot of content, we have simplified accessibility by having a scroll to top button.
 
+-----
+
 Evaluation
 
 Collaboration & Principles
@@ -128,13 +153,12 @@ Collaboration & Principles
 
 - We communicated and shared our screens regularly to keep each other updated on progress and blockers.
 
-Collaboration & Principles
-
 - We started each day with an informal catch up, then on to a ‘stand up’ to agree the goals and a plan to address any blockers.
 
 - We agreed a comms plan to keep each other informed of our availability & what to do in an unexpected circumstance.
 
 - We protected the ‘main’ branch and set up a review system to authorise any changes before merging & independently resolved any merge conflicts.
+
 
 Reflections
 
@@ -144,13 +168,13 @@ Reflections
 
 - Working together and coaching each other through elements we were each less confident with has been really rewarding - all of us feel that we have come away from this project with more skills than when we started.
 
-Reflections
-
 - We had fun implementing third party additions such as Toast, to create the pop up when you add a new review, and the live chat feature.
 
 - With more time, we would have liked to implement more interactivity in the navigation menu & additional Radix components. We also encountered an issue where a refresh is required when logging in for first time for the page to show the username and bio required form - we are looking into how to fix this.
 
 - We thoroughly enjoyed working together and feel really proud of what we have accomplished, especially as this was a pivot project that only started on Monday afternoon (but we don’t talk about that!!) <3
+
+------
 
 Links & @Discord
 
