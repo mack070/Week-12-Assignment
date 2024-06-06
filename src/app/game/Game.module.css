@@ -1,0 +1,32 @@
+/* components/Game.module.css */
+.container {
+	color: black;
+	text-align: center;
+	background-image: url("../game/merve-sensoy-UEb7vAqYb4U-unsplash.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.gameArea {
+	position: relative;
+	width: 90%;
+	height: 400px;
+	border: 1px solid #ccc;
+	margin: 20px auto;
+	overflow: hidden;
+}
+
+.airplane {
+	position: absolute;
+	font-size: 2rem;
+	cursor: pointer;
+	user-select: none;
+}
+
+.text-balance {
+	text-wrap: balance;
+}
+/* @layer utilities {
+	.text-balance {
+		text-wrap: balance;
+	}
+} */

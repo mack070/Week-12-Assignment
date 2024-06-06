@@ -92,6 +92,12 @@ export default async function RootLayout({ children }) {
 						</Link>
 						<Link
 							className='nav-bar hover:font-bold hover:underline'
+							href='/game'
+						>
+							Game
+						</Link>
+						<Link
+							className='nav-bar hover:font-bold hover:underline'
 							href='/contact-us'
 						>
 							Contact Us
