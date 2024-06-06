@@ -144,7 +144,22 @@ h5 {
 	justify-content: center;
 	padding: 15px;
 	font-size: 20px;
-	background-color: rgb(247, 203, 209);
-	color: white;
+	background-color: rgb(249, 249, 249);
+	color: rgb(255, 255, 255);
 	margin: 20px;
 }
+
+h6 {
+	color: #000000;
+	font-size: 20px;
+	display: flex;
+	justify-content: space-around;
+	align-content: space-between;
+	padding: 10px;
+	font-weight: 800;
+}
+
+button {
+background-color: #583c21;
+}
+

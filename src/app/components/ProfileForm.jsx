@@ -19,8 +19,8 @@ export default function ProfileForm() {
     <div>
       <h2>Update Profile</h2>
       <p>
-        <h3>Welcome to GITAWAYS, please choose a username & complete your bio to
-        continue...</h3>
+        <h6>Welcome to GITAWAYS, please choose a username & complete your bio to
+        continue...</h6>
       </p>
       <form className="profileform" action={handleUpdateProfile}>
         <input name="username" placeholder="Username" />
