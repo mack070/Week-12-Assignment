@@ -1,16 +1,14 @@
 "use client";
 import React, { useEffect } from "react";
-import Script from "next/script.js";
-import Elevator from "elevator.js";
 import "../../../node_modules/elevator.js";
 import "../../../node_modules/elevator.js/elevator.js";
-import ElevatorTrip from "../components/elevator.jsx";
+import ElevatorTrip from "../components/Elevator/Elevator.js";
 export default function Curacao() {
 	return (
 		<ElevatorTrip
 			targetId='top'
-			mainAudio='/src/app/components/audio/bbc_traffic--w_07031011.mp3'
-			endAudio='/src/to/end-audio.mp3'
+			mainAudio='audio/Club.mp3'
+			endAudio='audio/ding.mp3'
 		>
 			<div>
 				<header className='Curaçao-logo'>
@@ -226,6 +224,19 @@ export default function Curacao() {
 						</p>
 					</h2>
 				</div>
+				<br></br>
+				<h2 className='font-bold p-1 text-center text-xl'>
+					A playlist for your fight to Curaçao
+				</h2>
+				<iframe
+					className='iframe rounded-xl p-6'
+					src='https://open.spotify.com/embed/playlist/3uRyyu2dMzSejFncmz4HzP?utm_source=generator&theme=0'
+					width='100%'
+					height='652'
+					allowFullScreen=''
+					allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture'
+					loading='lazy'
+				></iframe>
 				<div className='image-section-two grid grid-cols-3 gap-4 p-4'>
 					<img
 						className='w-full h-48 object-cover'
@@ -248,18 +259,6 @@ export default function Curacao() {
 						></img>
 					</div>
 				</div>
-
-				<a
-					class='github-link'
-					href='https://github.com/tholman/elevator.js'
-					target='_blank'
-				>
-					<img
-						src='https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67'
-						alt='Fork me on GitHub'
-						data-canonical-src='https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png'
-					/>
-				</a>
 			</div>
 		</ElevatorTrip>
 	);
