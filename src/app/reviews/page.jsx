@@ -70,7 +70,7 @@ export default async function Posts({ searchParams }) {
           </SignedIn>
 
           <SignedOut>
-            <p>You need to sign in to post a review</p>
+            <h2>You need to sign in to post a review</h2>
             <SignInButton />
           </SignedOut>
 
