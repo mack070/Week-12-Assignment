@@ -107,9 +107,7 @@ export default function Curacao() {
 						<img
 							className='w-full h-48 object-cover'
 							src='https://trello.com/1/cards/665dd2fb2697bbcdeb5495eb/attachments/665eded5efd675f5d174b815/previews/665eded5efd675f5d174b986/download/curacao-dutch-island.jpg'
-
-							// src='https://i.natgeofe.com/n/dab37bc4-5a5c-430d-afa8-50338ca50af4/Curacao-dutch-island.jpg?w=718&h=479'
-							// alt=' a row of colorful houses'
+							alt='colourful houses'
 						></img>
 					</div>
 					<div className='image-section-two'>
@@ -176,15 +174,16 @@ export default function Curacao() {
 							</li>
 							<br></br>
 							<li>
-								<b>Diverse Marine Life:</b> Curaçao is a diver's paradise with
-								crystal-clear waters, extensive coral reefs, and marine life
-								including sea turtles, dolphins, and colorful tropical fish.
+								<b>Diverse Marine Life:</b> Curaçao is a diver&apos;s paradise
+								with crystal-clear waters, extensive coral reefs, and marine
+								life including sea turtles, dolphins, and colorful tropical
+								fish.
 							</li>
 							<br></br>
 							<li>
 								<b>Delicious Cuisine:</b> Savor a blend of Caribbean and
 								international flavors with local dishes such as Keshi Yena
-								(stuffed cheese) and fresh seafood, along with the island's
+								(stuffed cheese) and fresh seafood, along with the island&pos
 								famous Blue Curaçao liqueur.
 							</li>
 							<br></br>
@@ -196,15 +195,16 @@ export default function Curacao() {
 							</li>
 							<br></br>
 							<li>
-								<b>Diverse Marine Life:</b> Curaçao is a diver's paradise with
-								crystal-clear waters, extensive coral reefs, and marine life
-								including sea turtles, dolphins, and colorful tropical fish.
+								<b>Diverse Marine Life:</b> Curaçao is a diver&apos;s paradise
+								with crystal-clear waters, extensive coral reefs, and marine
+								life including sea turtles, dolphins, and colorful tropical
+								fish.
 							</li>
 							<br></br>
 							<li>
-								<b>Historical Landmarks:</b> Discover the island's history with
-								visits to the Kura Hulanda Museum, Fort Amsterdam, and the old
-								plantation houses (landhuizen) scattered around the island.
+								<b>Historical Landmarks:</b> Discover the island&apos;s history
+								with visits to the Kura Hulanda Museum, Fort Amsterdam, and the
+								old plantation houses (landhuizen) scattered around the island.
 							</li>
 							<br></br>
 							<li>
