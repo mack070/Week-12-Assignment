@@ -1,5 +1,4 @@
 "use client";
-import React, { useEffect } from "react";
 import "../../../node_modules/elevator.js";
 import "../../../node_modules/elevator.js/elevator.js";
 import ElevatorTrip from "../components/Elevator/Elevator.js";
@@ -7,7 +6,7 @@ export default function Toulouse() {
 	return (
 		<ElevatorTrip
 			targetId='top'
-			mainAudio='/public/audio/Around the world.mp3'
+			mainAudio='audio/Around the world.mp3'
 			endAudio='audio/ding.mp3'
 		>
 			<div>

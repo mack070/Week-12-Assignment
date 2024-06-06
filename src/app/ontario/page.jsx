@@ -1,5 +1,4 @@
 "use client";
-import React, { useEffect } from "react";
 import "../../../node_modules/elevator.js";
 import "../../../node_modules/elevator.js/elevator.js";
 import ElevatorTrip from "../components/Elevator/Elevator.js";
