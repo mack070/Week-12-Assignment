@@ -116,29 +116,7 @@ export default function Curacao() {
 						></img>
 					</div>
 				</div>
-				<div className='grid grid-cols-3 gap-4 p-4'>
-					<div className='image-section-one'>
-						<img
-							className='w-full h-48 object-cover'
-							src='https://trello.com/1/cards/665dd2fb2697bbcdeb5495eb/attachments/665dd5491fafcce3849e279f/previews/665dd54a1fafcce3849e3463/download/106285-Curacao.jpg'
-							alt='Curacao Logo'
-						></img>
-					</div>
-					<div className='image-section-one'>
-						<img
-							className='w-full h-48 object-cover'
-							src='https://trello.com/1/cards/665dd2fb2697bbcdeb5495eb/attachments/665dd341f390daf21ac1ea35/previews/665dd342f390daf21ac1ec78/download/51317-Willemstad.jpg'
-							alt='ny image two'
-						></img>
-					</div>
-					<div className='image-section-one'>
-						<img
-							className='w-full h-48 object-cover'
-							src='https://img.static-kl.com/images/media/554799FD-14AA-4EB3-9BEC6B52EC8F5068?w=1280'
-							alt='ny image three'
-						></img>
-					</div>
-				</div>
+
 				<div className='bg-rose-200 p-4'>
 					<h1 className='font-bold p-1 text-center text-xl'>
 						Here is why Curaçao is such a wonderful place
@@ -240,22 +218,22 @@ export default function Curacao() {
 				<div className='image-section-two grid grid-cols-3 gap-4 p-4'>
 					<img
 						className='w-full h-48 object-cover'
-						src='https://img.static-kl.com/images/media/FE979D35-B911-4598-85E11AAC8ECC22B8?w=1280'
-						alt='Tropical beach'
+						src='https://trello.com/1/cards/665dd2fb2697bbcdeb5495eb/attachments/665dd44c7b257fe5176d7812/previews/665dd44d7b257fe5176d7829/download/51324-Willemstad.jpg'
+						alt='Houses along the seafront'
 					></img>
 
 					<div className='image-section-two'>
 						<img
 							className='w-full h-48 object-cover'
-							src='https://trello.com/1/cards/665dd2fb2697bbcdeb5495eb/attachments/665eded5efd675f5d174b815/previews/665eded5efd675f5d174b986/download/curacao-dutch-island.jpg'
-							alt=' a row of colorful houses'
+							src='https://img.static-kl.com/images/media/FE979D35-B911-4598-85E11AAC8ECC22B8?w=1280'
+							alt=' a beach with deck chairs'
 						></img>
 					</div>
 					<div className='image-section-two'>
 						<img
 							className='w-full h-48 object-cover'
-							src='https://static01.nyt.com/images/2020/02/06/travel/06Hours-Curacao1/merlin_167925693_ee2f564e-552a-422a-9a4a-38dd56673004-superJumbo.jpg?quality=75&auto=webp'
-							alt='aerial photo of the beach'
+							src='https://trello.com/1/cards/665dd2fb2697bbcdeb5495eb/attachments/666234d1196ae717c12b64a5/previews/666234d3196ae717c12b64af/download/dave-drury-YaDcufLo7mo-unsplash.jpg'
+							alt=' a sign of Curacao'
 						></img>
 					</div>
 				</div>

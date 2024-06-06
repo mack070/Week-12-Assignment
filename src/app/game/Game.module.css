@@ -1,10 +1,14 @@
 /* components/Game.module.css */
 .container {
+	font-weight: 400;
 	color: black;
 	text-align: center;
 	background-image: url("../game/merve-sensoy-UEb7vAqYb4U-unsplash.jpg");
+	height: 550px;
+	background-position: center;
 	background-repeat: no-repeat;
-	background-size: 100% 100%;
+	background-size: cover;
+	position: relative;
 }
 .gameArea {
 	position: relative;
@@ -25,8 +29,3 @@
 .text-balance {
 	text-wrap: balance;
 }
-/* @layer utilities {
-	.text-balance {
-		text-wrap: balance;
-	}
-} */
