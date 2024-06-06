@@ -116,7 +116,8 @@ export default function Toulouse() {
 						<li>
 							<b>Pink City:</b> Wander through its picturesque streets, enjoy
 							exquisite cuisine, and explore landmarks like the stunning
-							Basilica of Saint-Sernin and the captivating Cité de l'Espace.
+							Basilica of Saint-Sernin and the captivating Cité de
+							l&apos;Espace.
 						</li>
 						<br></br>
 						<li>
@@ -141,7 +142,7 @@ export default function Toulouse() {
 						<br></br>
 						<li>
 							<b>Delicious Cuisine:</b>
-							he Capitole, Toulouse’s city hall, is an architectural
+							The Capitole, Toulouse&apos;s city hall, is an architectural
 							masterpiece. Its neoclassical facade features eight columns and a
 							grand square. Inside, you’ll find stunning rooms adorned with
 							paintings and sculptures.
@@ -184,7 +185,7 @@ export default function Toulouse() {
 					<p className='space-x-5 text-pretty text-center font-bold text-l p-2'>
 						Wander through its picturesque streets, enjoy exquisite cuisine, and
 						explore landmarks like the stunning Basilica of Saint-Sernin and the
-						captivating Cité de l'Espace.
+						captivating Cité de l&apos;Espace.
 					</p>
 				</h2>
 			</div>

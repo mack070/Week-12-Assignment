@@ -120,13 +120,14 @@ export default function Ontario() {
 						<li>
 							<b>Largest Population:</b> Ontario is the most populous province
 							in Canada, with over 14 million residents, making up about 38% of
-							the country's population.
+							the country&apos;s population.
 						</li>
 						<br></br>
 						<li>
-							<b>Economic Hub:</b> Ontario is Canada's economic powerhouse,
-							contributing more than 40% of the nation's GDP. It's home to many
-							industries, including manufacturing, finance, and technology.
+							<b>Economic Hub:</b> Ontario is Canada&apos;s economic powerhouse,
+							contributing more than 40% of the nation&apos;s GDP. It&apos;s
+							home to many industries, including manufacturing, finance, and
+							technology.
 						</li>
 						<br></br>
 						<li>
@@ -137,34 +138,36 @@ export default function Ontario() {
 						<br></br>
 						<li>
 							<b>Toronto:</b> The capital city of Ontario, is also the largest
-							city in Canada. It's a major cultural, financial, and
+							city in Canada. It&apos;s a major cultural, financial, and
 							entertainment hub with a diverse population.
 						</li>
 						<br></br>
 						<li>
 							<b>Great Lakes:</b> Ontario is bordered by four of the five Great
 							Lakes – Lake Superior, Lake Huron, Lake Erie, and Lake Ontario –
-							which contain about one-fifth of the world's fresh surface water.
+							which contain about one-fifth of the world&apos;s fresh surface
+							water.
 						</li>
 						<br></br>
 						<li>
-							<b>Cottage Country:</b> The province is famous for its "cottage
-							country," particularly the Muskoka region, where many people own
-							or rent summer homes to enjoy the beautiful lakes and forests.
+							<b>Cottage Country:</b> The province is famous for its
+							&quot;cottage country,&quot; particularly the Muskoka region,
+							where many people own or rent summer homes to enjoy the beautiful
+							lakes and forests.
 						</li>
 						<br></br>
 						<li>
 							<b>Multicultural Province:</b> Ontario is one of the most
 							multicultural regions in the world, with Toronto being
-							particularly diverse. More than half of Toronto's population was
-							born outside of Canada.
+							particularly diverse. More than half of Toronto&apos;s population
+							was born outside of Canada.
 						</li>
 						<br></br>
 						<li>
 							<b>Ottawa – The Capital</b> Ottawa, the capital city of Canada, is
-							located in Ontario. It’s known for its beautiful architecture,
-							including Parliament Hill, and numerous national museums and
-							cultural institutions.
+							located in Ontario. It&apos;s known for its beautiful
+							architecture, including Parliament Hill, and numerous national
+							museums and cultural institutions.
 						</li>
 						<br></br>
 						<li>
