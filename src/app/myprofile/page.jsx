@@ -12,10 +12,13 @@ export default async function Posts() {
   //if user id = null ( nextjs method)
   // get the clerk id from the database using const like below
   const profile = await db.query(
-    `SELECT id FROM profiles WHERE clerk_id = '${userId}'`
+    `SELECT * FROM profiles WHERE clerk_id = '${userId}'`
   );
+  console.log (profile.rows[0])
 
-  const profiledata = profile.rows[0]?.id;
+  const profileid = profile.rows[0]?.id;
+  const profileusername = profile.rows[0]?.username;
+  const profilebio = profile.rows[0]?.bio;
 
   // get my new posts
   const posts = await db.query(`SELECT
@@ -23,7 +26,7 @@ export default async function Posts() {
                 posts.content,
                 profiles.username
             FROM posts
-            INNER JOIN profiles ON posts.profile_id = profiles.id WHERE posts.profile_id = ${profiledata}`);
+            INNER JOIN profiles ON posts.profile_id = profiles.id WHERE posts.profile_id = ${profileid}`);
 
   // server action to add a new post
   async function handleAddPost(formData) {
@@ -34,7 +37,7 @@ export default async function Posts() {
 
     // add the new post to the database
     await db.query(
-      `INSERT INTO posts (profile_id, content) VALUES (${profiledata}, '${content}')`
+      `INSERT INTO posts (profile_id, content) VALUES (${profileid}, '${content}')`
     );
     revalidatePath("/");
   }
@@ -44,10 +47,15 @@ export default async function Posts() {
       <header className="reviews-logo">
         <img src="https://trello.com/1/cards/665db5c053a2259891f53092/attachments/665f3fcfe914f28437de452a/previews/665f3fd0e914f28437de4534/download/Design_(2).jpeg"></img>
       </header>
+
+      <h6>My Bio</h6>
+        <div className="bio">
+          <p>{profilebio}</p>
+          </div>
       <div className="createposts">
         <SignedIn>
           <div className="addpost">
-            <h6>Leave us a review...</h6>
+            <h6>Add A Review:</h6>
             <form action={handleAddPost}>
               <textarea
                 name="content"
