@@ -92,7 +92,7 @@ export default async function RootLayout({ children }) {
 						</Link>
 						<Link
 							className='nav-bar hover:font-bold hover:underline'
-							href='/game'
+							href='/src/game/Game.js'
 						>
 							Game
 						</Link>
