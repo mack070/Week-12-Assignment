@@ -1,4 +1,3 @@
-// components/Game.js
 "use client";
 import { useState, useEffect, useRef } from "react";
 import styles from "./Game.module.css";
